@@ -1,0 +1,23 @@
+@RELATION cardiaco 
+
+@ATTRIBUTE fadiga			{S,N}
+@ATTRIBUTE tontura			{S,N}
+@ATTRIBUTE palpitacao 		{S,N}
+@ATTRIBUTE falta_de_ar 		{S,N}
+@ATTRIBUTE batimento_lento 	{S,N}
+@ATTRIBUTE dor_no_braço 	{S,N}
+@ATTRIBUTE enfermidade		{pressao,arritmia,ataque}
+
+@DATA
+S,S,S,S,S,N,arritmia
+S,S,N,S,S,N,arritmia
+N,N,S,S,N,N,pressao
+N,S,N,S,S,N,pressao
+S,S,S,N,S,N,arritmia
+S,N,S,S,S,N,arritmia
+N,S,S,N,N,S,ataque
+N,S,N,N,N,S,ataque
+N,N,S,N,S,N,pressao
+S,S,N,S,N,S,ataque
+S,S,N,S,S,S,ataque
+S,S,S,S,S,S,ataque
